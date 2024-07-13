@@ -25,5 +25,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": ["javascript", "typescript"]
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.wordWrap": "wordWrapColumn"
 }
