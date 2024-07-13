@@ -34,19 +34,19 @@ export default function AvisoDePrivacidad() {
               <span className='font-bold'>WEHOUSEKEEP MEXICO</span> usará los datos personales recabados para:
             </p>
             <ol className="list-roman px-8 ">
-              <li>
+              <li className='py-3'>
                 Para fines administrativos, en los que sea conveniente usar los datos personales para brindar los servicios y productos que <span className='font-bold'>WEHOUSEKEEP MEXICO</span> ofrece a sus usuarios.
               </li>
-              <li>
+              <li className='py-3'>
                 Notificar al usuario los cambios que hayan tanto en el aviso presente, como los Terminos y Condiciones, o cualquier otro cambio relevante al usuario.
               </li>
-              <li>
+              <li className='py-3'>
                 Comunicarle al usuario las distintas promociones o eventos relacionados a <span className='font-bold'>Cleani</span> que <span className='font-bold'>WEHOUSEKEEP MEXICO</span> considere relevantes para sus usuarios.
               </li>
-              <li>
+              <li className='py-3'>
                 Contactar al usuario por cuestiones que surjan del uso de <span className='font-bold'>Cleani</span> o de sus servicios, o de cualquier otra circunstancia relacionada a los productos o servicios que <span className='font-bold'>WEHOUSEKEEP MEXICO</span> ofrece a sus clientes.
               </li>
-              <li>
+              <li className='py-3'>
                 La creación de perfiles estadísticos, en <span className='font-bold'>Cleani</span> o cualquier otro sitio propiedad de <span className='font-bold'>WEHOUSEKEEP MEXICO</span>, para otorgarle al usuario una experiencia personalizada.
               </li>
             </ol>
