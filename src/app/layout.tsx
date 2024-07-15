@@ -6,8 +6,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { Navbar } from "@/components/sections/navbar/navbar.section";
-import { ThemeProvider } from "@mui/material/styles";
-import { theme } from "@/utils/material-ui-theme";
+import Script from "next/script";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,12 +23,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/*<!--Import Google Icon Font-->*/}
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        {/*<!-- Compiled and minified CSS -->*/}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+      </head>
       <body className={inter.className}>
-        <ThemeProvider theme={theme}>
-          <Navbar />
-          {children}
-        </ThemeProvider>
+        <Navbar />
+        {children}
       </body>
+
+      {/*<!-- Compiled and minified JavaScript -->*/}
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" />
     </html>
   );
 }
