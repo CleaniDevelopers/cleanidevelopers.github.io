@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/sections/navbar/navbar.section';
 import React from 'react'
+import Image from 'next/image'
 
 export default function MainPage() {
   const navBarHidden = false;
@@ -37,7 +38,36 @@ export default function MainPage() {
             <div className="col s12">
               <div className="card">
                 <div className="card-content">
-                  Descarga
+                  <div className="row">
+                    <div className="col s6">
+                      <span className="card-title shanti-regular secondary-color-text">
+                        ¡No lo pienses más, pide tu primer servicio!
+                      </span>
+                      <span className="trirong-light text-xl">
+                        Descubre los increíbles descuentos que tenemos para ti
+                      </span>
+                    </div>
+                    <div className="col s6">
+                      <div className="flex flex-col items-center justify-between">
+                        <a href="https://play.google.com/store/apps/details?id=com.cleani.mx.app&pcampaignid=web_share">
+                          <Image
+                            src="/assets/images/GooglePlayDownloadImage.webp"
+                            width={200}
+                            height={100}
+                            alt="Google Play Download Image"
+                          />
+                        </a>
+                        <a href="https://apps.apple.com/us/app/cleani/id6482783178">
+                          <Image
+                            src="/assets/images/AppStoreDownloadImage.webp"
+                            width={180}
+                            height={100}
+                            alt="Google Play Download Image"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
