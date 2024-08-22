@@ -3,11 +3,21 @@ import Image from 'next/image';
 
 import logoAzul from '../../../../public/assets/images/Logo_Azul.png'
 
-interface NavbarProps {
+export interface NavbarProps {
+  hiden: boolean;
+  dataTargetValue: string;
+  children?: Readonly<React.ReactNode>
 }
 
 export const Navbar = (props: NavbarProps) => {
   return (
-    <Image src={logoAzul} alt={'Logo Cleani'} className='w-52' />
+    <>
+      <nav className={(props.hiden ? '!hidden' : '') + ' h-20 pushpin'} data-target={props.dataTargetValue}>
+        <div className="nav-wrapper white">
+          <Image src={logoAzul} alt={'Logo Cleani'} className='brand-logo w-52 py-4' />
+        </div>
+      </nav>
+      {props.children}
+    </>
   )
 }

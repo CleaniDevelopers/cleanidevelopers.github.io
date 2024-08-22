@@ -1,3 +1,154 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* CSS HEX */
+:root {
+  --royal-blue-traditional: #03256cff;
+  --persian-blue: #2541b2ff;
+  --jordy-blue: #7ab0fbff;
+  --white: #fdfdfdff;
+  --bittersweet: #fe5f55ff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main-color-text {
+  color: var(--jordy-blue);
+}
+
+.secondary-color-text {
+  color: var(--royal-blue-traditional);
+}
+
+/** Titles */
+.pt-sans-caption-regular {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-caption-bold {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/** Subtitles */
+.shanti-regular {
+  font-family: 'Shanti', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/** Regular Text and variants */
+.trirong-thin {
+  font-family: 'Trirong', serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.trirong-extralight {
+  font-family: 'Trirong', serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.trirong-light {
+  font-family: 'Trirong', serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.trirong-regular {
+  font-family: 'Trirong', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.trirong-medium {
+  font-family: 'Trirong', serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.trirong-semibold {
+  font-family: 'Trirong', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.trirong-bold {
+  font-family: 'Trirong', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.trirong-extrabold {
+  font-family: 'Trirong', serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.trirong-black {
+  font-family: 'Trirong', serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.trirong-thin-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.trirong-extralight-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.trirong-light-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.trirong-regular-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.trirong-medium-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.trirong-semibold-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.trirong-bold-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.trirong-extrabold-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.trirong-black-italic {
+  font-family: 'Trirong', serif;
+  font-weight: 900;
+  font-style: italic;
+}

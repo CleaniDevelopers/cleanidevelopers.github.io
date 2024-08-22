@@ -1,0 +1,28 @@
+.backgroundVideo {
+  position: relative;
+  height: 100vh;
+}
+
+video {
+  position: relative;
+  height: 100vh;
+  object-fit: cover;
+  filter: blur(0.6rem) !important;
+}
+
+.pin-bottom:has(> div video) {
+  position: relative;
+}
+
+@media (max-width: 750px) {
+  video {
+  }
+}
+
+.welcomeBox {
+  position: absolute;
+  top: 0;
+  color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+}
