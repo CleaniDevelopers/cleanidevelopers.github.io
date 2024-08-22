@@ -14,7 +14,9 @@ export const Navbar = (props: NavbarProps) => {
     <>
       <nav className={(props.hiden ? '!hidden' : '') + ' h-20 pushpin'} data-target={props.dataTargetValue}>
         <div className="nav-wrapper white">
-          <Image src={logoAzul} alt={'Logo Cleani'} className='brand-logo w-52 py-4' />
+          <a href="/">
+            <Image src={logoAzul} alt={'Logo Cleani'} className='brand-logo w-52 py-4' />
+          </a>
         </div>
       </nav>
       {props.children}
